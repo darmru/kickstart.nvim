@@ -253,7 +253,7 @@ require('lazy').setup({
         html = { 'htmlhint' },
         markdown = { 'markdownlint' },
         lua = { 'luacheck' },
-        python = { 'mypy', 'flake8' },
+        python = { 'mypy', 'flake8', 'pylint' },
         go = { 'golangcilint' },
       }
 
