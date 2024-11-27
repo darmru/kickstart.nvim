@@ -253,7 +253,7 @@ require('lazy').setup({
         html = { 'htmlhint' },
         markdown = { 'markdownlint' },
         lua = { 'luacheck' },
-        python = { 'mypy' },
+        python = { 'mypy', 'flake8' },
         go = { 'golangcilint' },
       }
 
@@ -653,6 +653,7 @@ require('lazy').setup({
         gopls = {},
         ruff = {},
         bashls = {},
+        pyright = {},
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
